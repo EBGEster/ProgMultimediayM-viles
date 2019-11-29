@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="actividad_1">Actividad 1</string>
+    <string name="pac_desarrollo">¡PAC DESARROLLO!</string>
+    <string name="actividad_2">ACTIVIDAD 2</string>
+    <string name="actividad_3">ACTIVIDAD 3</string>
+    <string name="photo">photo</string>
+    <string name="CrearTabla">CREAR TABLA</string>
+    <string name="volver">VOLVER</string>
+    <string name="insertar_datos">INSERTAR DATOS</string>
+    <string name="consultar_datos">CONSULTAR DATOS</string>
+    <string name="volverTabla">Volver</string>
+    <string name="crear_servicio">CREAR SERVICIO</string>
+    <string name="detener_servicio">DETENER SERVICIO</string>
+    <string name="volver_main">IR A INICIO</string>
+</resources>
