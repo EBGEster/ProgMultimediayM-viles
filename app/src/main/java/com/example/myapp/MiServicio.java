@@ -8,7 +8,11 @@ import android.os.IBinder;
 
 public class MiServicio extends Service {
 
-    private MediaPlayer player;
+    private static MediaPlayer player;
+
+    public static MediaPlayer getPlayer() {
+        return player;
+    }
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -17,7 +21,7 @@ public class MiServicio extends Service {
 
     @Override
     public void onCreate() {
-        player = MediaPlayer.create(this,R.raw.audio);
+        player = MediaPlayer.create(this,R.raw.avril_lavigne);
         player.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
         player.setLooping(true);
